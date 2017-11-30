@@ -1,0 +1,159 @@
+label {
+    font: normal 12px courier !important;
+}
+
+label:hover, label:active input:hover+label, input:active+label{
+  background: yellow;
+}
+
+button{
+  padding: 0;
+border: none;
+background: none;
+font-size: 35%;
+}
+
+
+button:hover {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  color: #E6E6E6;
+
+}
+
+#dormir{
+   border-radius: 85px;
+   width: 30px;
+height: 30px;
+}
+
+#c {
+
+  text-align:center;
+   line-height:150%;
+   font-size:.85em;
+
+}
+
+
+#prueba{
+  z-index: 3;
+}
+
+h1:hover{
+  -webkit-transition-duration: 1.0s; /* Safari */
+  transition-duration: 1.0s;
+    background: white;
+}
+
+h1{
+  width: 100%;
+  opacity: 1;
+}
+
+p.p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+p.pp {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 180%;
+}
+
+#pies {
+    text-align: justify;
+}
+
+#pies img {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+
+#pies:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#ppies {
+    text-align: justify;
+}
+
+#ppies p {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 0;
+}
+
+#ppies:after {
+    content: '';
+    display: inline-block;
+    width: 50%;
+}
+
+
+#pppies {
+    text-align: justify;
+}
+
+#pppies p {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 120%;
+    color: #BDBDBD;
+    width: 400px;
+    height: 0px;
+}
+
+#pppies:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#banner{
+  width: 100%;
+}
+
+#final{
+  background-color: #0B0B3B;
+  height: 600px;
+}
+
+#final p{
+
+  color: #FFFFFF;
+}
+
+p.pp2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+#in{
+   margin: 0 auto;
+  width: 550px;
+  height: 50px;
+  left: 0;
+  z-index: -1;
+}
+
+#but{
+  width: 140px;
+  height: 40px;
+  font-size: 120%;
+  color: #FFFFFF;
+  position: absolute;
+  right: 405px;
+  bottom: -1490px;
+   background: #0B0B3B;
+  z-index: 2;
+
+
+}
